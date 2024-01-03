@@ -23,8 +23,7 @@
     },
     "backlight": {
         // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+        "format": "{percent}% Backlight",
     },
     "battery": {
         "states": {
@@ -33,8 +32,8 @@
             "critical": 25
         },
         "format": "{capacity}% Bat",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
+        "format-charging": "{capacity}% Charging",
+        "format-plugged": "{capacity}% Plugged",
         "format-alt": "{time} Bat",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
@@ -54,8 +53,8 @@
     "pulseaudio": {
         "scroll-step": 5, // %, can be a float
         "format": "{volume}% Vol {format_source}",
-        "format-bluetooth": "{volume}%  {format_source}",
-        "format-bluetooth-muted": "Muted  {format_source}",
+        "format-bluetooth": "{volume}% Bluetooth {format_source}",
+        "format-bluetooth-muted": "Muted Bluetooth {format_source}",
         "format-muted": "Muted {format_source}",
         "format-source": "{volume}% Input",
         "format-source-muted": "Muted",
