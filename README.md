@@ -4,11 +4,11 @@ These are needed for waybar:
 
 `ttf-roboto-mono`
 
-`ttf-font-awesome`
-
 You can install them on arch with
 ```
-sudo pacman -S ttf-roboto-mono ttf-font-awesome
+sudo pacman -S ttf-roboto-mono
 ```
 
 [Catppiccin GTK theme](https://github.com/catppuccin/gtk/releases)
+
+[Papirus icon theme](https://www.gnome-look.org/p/1166289)
